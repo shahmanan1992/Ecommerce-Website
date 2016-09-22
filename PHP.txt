@@ -1,0 +1,66 @@
+As requested all the HTML code which is repeated i.e header in separate file
+
+There are two accounts active in the database
+
+1.Normal users
+
+username: Manan
+password: boy
+
+username :jinali
+password:girl
+
+2. Admin login information
+username: server
+password: design
+
+
+
+Local user doesn't have the privilege to go to the admin page and add or edit products information.
+
+
+All database functions are implemented under DB.class.php and also made use of PDO functions. All queries wherever required are parameterized.
+
+1.Project1 passses HTML 5 validation.
+2. CSS is in External stylesheet.
+3. has minimum required pages which few separate php files like header, logout
+
+3.index.php has
+
+  3.1 Sales section
+  3.2 Catalog Section
+  3.3 Minimum 15 items in Database
+  3.4 Sales Item does not appear in catalog section
+  3.5 Paging is achieved
+  3.6 Add to Cart is the alias to buy button and adds the items into the cart.
+
+4.cart.php
+
+  4.1 Total prices are listed.
+  4.2 Posting are loaded dynamically with the help of database.
+  4.3 Empty button deletes the entires from the cart.
+
+5.admin.php
+
+   5.1 A form to put items on sale or remove them from being on sale. Also the sale constraint is checked where the user can't add more than 5 items i.e. only maximum of 5 items at a time.
+   5.2 A form to add items to the catalog including a button to upload an image.
+   5.3 A password field is also achieved.
+   5.4 All input will be validated and sanitized as appropriate based on the information in the field. e.g quantity cannot be decimal. Prrice, Saleprice should be numeric.
+   5.5 The method of the form(s) will be POST.
+
+6.DB.class.php and LIB_project1.php or other Class structure
+
+   6.1 The code in this file(s) will be structured as reusable functions that will be called by the other pages.
+   6.2 Copious comments will describe the inputs, outputs, and purpose of each function.
+   6.3 This file will be included/required by the other pages.
+
+
+7. Extras
+
+   7.1 Cart handling is done by user instead of all sharing the same cart.
+   7.2 Use sessions for logging/authorization for admin functions.
+   7.3 tried implementing Database functions use PDO with Object Mapping in a separate class. 
+   7.4 Maintained session properly with cart remove/Empty functionality.
+   7.5 Paging index handled for pages greater than total products too. 
+   ie. User enter 30 in URL as page=30,but user reflects the last page only.
+   

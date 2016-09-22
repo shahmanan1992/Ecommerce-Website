@@ -1,0 +1,218 @@
+body
+{
+    margin:0;
+}
+.container
+{
+    height:80px;
+    background-color: #F2F2F2;
+    width: 100%;
+
+}
+.heading
+{
+    padding-left:50px;
+    margin:0 auto;
+}
+#logo
+{
+    padding-top:20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    float:left;
+}
+
+#logo img
+{
+    width:50px;
+    height:50px;
+
+}
+
+.supply
+{
+    color:black;
+}
+
+#all
+{
+    color:limegreen;
+}
+#logo a
+{
+    text-decoration: none;
+}
+
+#menu
+{
+    float:left;
+    font-size: 1.5em;
+    padding: 26px 0 0 450px;
+    font-family: 'Poiret One', cursive;
+}
+
+#menu ul
+{
+    list-style-type:none;
+}
+
+#menu li
+{
+    float:left;
+    padding-right:20px;
+    /*border-left: 1px solid black;*/
+    /*border-right: 1px solid black;*/
+    padding-left:10px;
+}
+
+.text:hover
+{
+    border-bottom:2px solid black;
+    color:limegreen;
+}
+
+.text
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+#Message
+{
+    position: absolute;
+    top:70px;
+    color:black;
+    padding:5px;
+    font-size: 20px;
+}
+
+.content
+{
+    width:90%;
+    padding:10px;
+    margin:0 auto;
+
+}
+
+.Sales-Catalog {
+
+    /*background-color: #00fa00;*/
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top:25px;
+}
+
+#gap
+{
+    padding-top:50px;
+}
+
+
+#sale_items li
+{
+    display:inline-block;
+    width:40%;
+    height:220px;
+    background-color:#F2F2F2;
+    float: left;
+    margin:20px;
+    padding:30px;
+}
+
+.img_heading
+{
+    display: block;
+    float: left;
+    width:175px;
+}
+
+#sale_items label
+{
+    float:left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+#sale_items img
+{
+    width:150px;
+    height:190px;
+    float:left;
+    border-radius: 70px;
+    margin:10px;
+}
+
+.item-bar
+{
+    height:200px;
+    /*background-color: #00b8eb;*/
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Cabin', sans-serif;
+}
+
+.description
+{
+    height:100px;
+    margin-top:30px;
+    padding-top: 10px;
+    /*background-color: #00bf00;*/
+
+}
+
+.item_Left
+{
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    /*background-color: #00b8eb;*/
+}
+.submit
+{
+    color:white;
+    float:right;
+    margin-top: 30px;
+    border-radius:5px;
+    background-color: green;
+    height:40px;
+    border:2px solid green;
+}
+
+#navigation
+{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/*#navigation ul {*/
+    /*display: inline-block;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+#navigation li
+{
+    display: inline-block;
+    margin:10px;
+}
+
+#navigation li a {
+    text-decoration: none;
+}
+
+#navigation li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: #ddd;
+}
+

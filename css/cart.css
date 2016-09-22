@@ -1,0 +1,81 @@
+body
+{
+    margin:0;
+    background-color: ghostwhite;
+}
+
+
+#content-bar
+{
+    width:80%;
+    margin:0 auto;
+    border:1px solid lightgray;
+    border-radius:10px;
+    padding:15px;
+
+}
+
+.cart-head
+{
+    width: 90%;
+    margin:20px 0 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+
+.cart-item
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+
+.contentInfo
+{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Verdana";
+}
+
+.hr-line
+{
+    margin: 0 auto;
+    color:lightgray;
+}
+
+#total
+{
+    width:80%;
+    margin:0 auto;
+    padding:20px 0 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.emptyCart
+{
+    border-radius: 5px;
+    background-color: limegreen;
+    color:white;
+    height:40px;
+    width:120px;
+    font-size: medium;
+    border: 0;
+}
+
+.removeItem
+{
+    border-radius: 5px;
+    background-color: limegreen;
+    color:white;
+    border: 1px solid limegreen;
+}
+
+.removeItem:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+

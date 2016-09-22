@@ -1,0 +1,126 @@
+.itemList
+{
+    width:50%;
+    float:left;
+    margin:0 auto;
+    color:black;
+    padding:15px;
+}
+.content
+{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    margin-top:-90px;
+    margin-bottom:20px;
+}
+
+
+.selectBar option
+{
+    width:300px;
+}
+
+.editList
+{
+    float:left;
+    margin:0 auto;
+    width:40%;
+    color:black;
+    padding:15px;
+    text-align: center;
+}
+
+
+
+/*{*/
+    /*margin-left:50px;*/
+/*}*/
+
+.addList
+{
+    float:left;
+    margin:0 auto;
+    width:40%;
+    color:black;
+    padding:15px;
+    text-align: center;
+    border-left:1px solid lightgray;
+}
+
+.top
+{
+    margin-top:100px;
+}
+
+.addItem
+{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.addForm
+{
+    margin-top:20px;
+}
+
+.addForm input
+{
+    font-family: Verdana;
+    height:40px;
+    margin-top:15px;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid lightgray;
+}
+
+form input:hover
+{
+    border:1px solid #00fa00;
+}
+
+form textarea:hover
+{
+    border:1px solid #00fa00;
+}
+.addForm textarea
+{
+    border-radius: 5px;
+    border:1px solid lightgray;
+    font-family: Verdana;
+    max-width: 250px;
+    max-height: 60px;
+    height: 60px;
+    width:250px;
+    margin-top:15px;
+    padding:10px;
+    margin-left:45px;
+}
+
+
+#submit
+{
+   color:white;
+    background-color: dodgerblue;
+}
+
+#submit:hover
+{
+    border:1px solid dodgerblue;
+}
+
+#upload
+{
+   color:white;
+}
+
+.success
+{
+    position:absolute;
+    margin-top:30px;
+    margin-left:-100px;
+    font-size: 15px;
+    color:limegreen;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
